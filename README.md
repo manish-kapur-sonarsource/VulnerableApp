@@ -9,7 +9,7 @@ As solving the above issue requires the addition of various vulnerabilities, hen
 
 ![Owasp Vulnerable Graphic Representation](/docs/gifs/VulnerableApp.gif)
 
-### Future Goal
+### Future Goals
 
 Going further, this application might becomes a database for vulnerabilities. Hence, in future, it can be used for hosting CTFs and can also become a compliance/benchmark for Vulnerability Scanning tools.
 
