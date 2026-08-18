@@ -1,5 +1,6 @@
 package org.sasanlabs.beans;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 import org.sasanlabs.internal.utility.annotations.RequestParameterLocation;
@@ -42,6 +43,7 @@ public class ScannerResponseBean {
     @JsonProperty("vulnerabilityTypes")
     private List<VulnerabilitySubType> vulnerabilityTypes;
 
+    @JsonCreator
     public ScannerResponseBean(
             String url,
             String level,
